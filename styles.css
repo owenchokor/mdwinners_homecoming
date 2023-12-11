@@ -28,12 +28,14 @@ body {
 }
 
 .banner {
-    font-size: 5vw; /* Responsive font size based on viewport width */
-    background-color: black; /* Choose a color that fits your design */
+    font-size: 10vw; /* Responsive font size based on viewport width */
+    background-color: transparent; /* Choose a color that fits your design */
     color: white; /* Text color */
     text-align: center; /* Center align text */
     padding: 20px 0; /* Padding for top and bottom */
+    margin-bottom: 50px;
     margin-bottom: 30px; /* Increased space below the banner */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5)
 }
 
 
