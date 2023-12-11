@@ -28,13 +28,14 @@ body {
 }
 
 .banner {
-    font-size: 40px; /* Large font size */
-    background-color: #4CAF50; /* Choose a color that fits your design */
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    background-color: black; /* Choose a color that fits your design */
     color: white; /* Text color */
     text-align: center; /* Center align text */
     padding: 20px 0; /* Padding for top and bottom */
-    margin-bottom: 20px; /* Space below the banner */
+    margin-bottom: 30px; /* Increased space below the banner */
 }
+
 
 .image-button {
     animation: riseUp 2s ease-out;
