@@ -12,21 +12,22 @@ body {
 }
 
 .image-button {
-    background-color: black; /* Button background color changed to black */
-    color: white; /* Button text color changed to white */
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2vw;
-    margin: 2% 0; /* Margin is now 2% of the height of the viewport */
+    background-color: black;
+    color: white;
+    padding: 1.5vh 2vw; /* Padding based on viewport height and width */
+    font-size: 2vw; /* Font size relative to viewport width */
+    margin: 2vh 0; /* Margin based on viewport height */
     cursor: pointer;
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
-    width: 30%;
-    max-width: 200px;
-    min-width: 100px;
+    width: 30vw; /* Width relative to viewport width */
+    max-width: 300px; /* Maximum width */
+    min-width: 150px; /* Minimum width */
+    min-height: 5vh; /* Minimum height relative to viewport height */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .image-button:hover {
