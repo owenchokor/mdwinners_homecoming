@@ -1,8 +1,10 @@
 body {
     background-image: url('GettyImages-530045185.jpg');
-    background-size: cover; /* This will ensure that the image covers the whole page */
-    background-position: center; /* This will center the image on the page */
-    background-repeat: no-repeat; /* This will make sure the image doesn't repeat */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* New line added */
+    margin: 0; /* Ensures there is no default margin around the body */
 }
 
 .image-button {
