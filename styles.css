@@ -28,7 +28,7 @@ body {
 }
 
 .image-button {
-    animation: riseUp 1s ease-out;
+    animation: riseUp 2s ease-out;
     font-family: 'NanumGothic', sans-serif;
     background-color: black;
     color: white;
