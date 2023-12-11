@@ -1,3 +1,10 @@
+body {
+    background-image: url('GettyImages-530045185.jpg');
+    background-size: cover; /* This will ensure that the image covers the whole page */
+    background-position: center; /* This will center the image on the page */
+    background-repeat: no-repeat; /* This will make sure the image doesn't repeat */
+}
+
 .image-button {
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
