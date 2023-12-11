@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('NanumGothic.woff') format('woff');
+}
+
 body {
     background-image: url('GettyImages-530045185.jpg');
     background-size: cover;
@@ -12,6 +17,7 @@ body {
 }
 
 .image-button {
+    font-family: 'NanumGothic', sans-serif;
     background-color: black;
     color: white;
     padding: 1.5vh 2vw; /* Padding based on viewport height and width */
