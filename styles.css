@@ -41,6 +41,7 @@ body {
 }
 
 .go-back-button {
+    font-family: 'NanumGothic', sans-serif;
     position: absolute; /* Position the button absolutely within its relative container */
     top: 20px; /* Space from the top of the page */
     right: 20px; /* Space from the right side of the page */
