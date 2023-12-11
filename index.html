@@ -2,22 +2,25 @@
 <html>
 <head>
     <title>MD Winners Homecoming</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 뷰포트 메타 태그 추가 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .image-container {
-            display: flex; /* Flexbox 사용 */
-            justify-content: center; /* 가로 방향 중앙 정렬 */
-            align-items: center; /* 세로 방향 중앙 정렬 */
-            height: 100vh; /* 컨테이너 높이를 화면 높이에 맞춤 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-         .responsive-image {
-            width: 100%; /* 이미지 너비를 화면 너비에 맞춤 */
-            height: auto; /* 이미지 높이를 자동으로 조절 */
-            border: 0; /* 선택적: 테두리 제거 */
+        .responsive-image {
+            width: 100%;
+            height: auto;
+            border: 0;
         }
     </style>
 </head>
 <body>
-    <img src="MDW_TTBL.png">
+    <div class="image-container">
+        <img src="MDW_TTBL.png" class="responsive-image" alt="MD Winners Homecoming">
+    </div>
 </body>
 </html>
+
