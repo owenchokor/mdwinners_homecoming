@@ -1,3 +1,14 @@
+@keyframes riseUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @font-face {
     font-family: 'NanumGothic';
     src: url('NanumGothic.woff') format('woff');
@@ -17,6 +28,7 @@ body {
 }
 
 .image-button {
+    animation: riseUp 1s ease-out;
     font-family: 'NanumGothic', sans-serif;
     background-color: black;
     color: white;
