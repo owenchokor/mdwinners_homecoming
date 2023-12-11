@@ -6,7 +6,7 @@ body {
 }
 
 .image-button {
-    background-color: #4CAF50; /* Green background */
+    background-color: #03045E; /* Ultramarine background */
     color: white; /* White text */
     padding: 15px 32px; /* Top and bottom padding of 15px, left and right padding of 32px */
     text-align: center; /* Center-aligned text */
@@ -21,5 +21,5 @@ body {
 }
 
 .image-button:hover {
-    background-color: #45a049; /* Darker shade of green on hover */
+    background-color: #F2F3F4; /* Darker shade of green on hover */
 }
