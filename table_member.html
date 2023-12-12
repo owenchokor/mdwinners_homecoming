@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>MD Winners Homecoming</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Winners Homecoming</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .image-container {
-            display: flex;
+            display: none; /* Initially hidden */
             justify-content: center;
             align-items: center;
             height: 100vh;
@@ -15,13 +17,24 @@
             height: auto;
             border: 0;
         }
+        /* Add your existing CSS for the form here */
     </style>
-    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div class="image-container">
-        <img src="MDW_TTBL_member.jpg" class="responsive-image" alt="member timetable">
+    <div id="registration-form">
+        <h2>Guest Registration</h2>
+        <form id="guestForm">
+            <input type="text" id="name" placeholder="이름" required>
+            <input type="text" id="affiliation" placeholder="소속" required>
+            <button type="submit">Register</button>
+        </form>
     </div>
-    <button class="go-back-button" onclick="window.location.href='index.html';">뒤로</button>
+
+    <div class="image-container" id="welcome-image-container">
+        <img src="MDW_TTBL_member.jpg" class="responsive-image" alt="member timetable">
+        <button class="go-back-button" onclick="resetForm()">뒤로</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
