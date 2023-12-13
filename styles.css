@@ -44,16 +44,16 @@ body {
     background-color: black;
     color: white;
     padding: 1.5vh 2vw; /* Padding based on viewport height and width */
-    font-size: 2vw; /* Font size relative to viewport width */
+    font-size: 4vw; /* Font size relative to viewport width */
     margin: 2vh 0; /* Margin based on viewport height */
     cursor: pointer;
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
-    width: 30vw; /* Width relative to viewport width */
+    width: 40vw; /* Width relative to viewport width */
     max-width: 300px; /* Maximum width */
     min-width: 150px; /* Minimum width */
-    min-height: 5vh; /* Minimum height relative to viewport height */
+    min-height: 7vh; /* Minimum height relative to viewport height */
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -87,7 +87,7 @@ body {
     margin-top: 20px; /* 버튼과의 간격 설정 */
     padding: 10px; /* 내부 여백 설정 */
     text-align: center; /* 텍스트 가운데 정렬 */
-    font-size: 1.5vw; /* 화면 너비에 비례하여 글씨 크기 조정 */
+    font-size: 3vw; /* 화면 너비에 비례하여 글씨 크기 조정 */
 }
 
 
