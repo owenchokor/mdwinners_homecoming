@@ -50,7 +50,7 @@ body {
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
-    width: 40vw; /* Width relative to viewport width */
+    width: 50vw; /* Width relative to viewport width */
     max-width: 300px; /* Maximum width */
     min-width: 150px; /* Minimum width */
     min-height: 7vh; /* Minimum height relative to viewport height */
