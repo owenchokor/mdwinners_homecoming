@@ -44,7 +44,7 @@ body {
     background-color: black;
     color: white;
     padding: 1.5vh 2vw; /* Padding based on viewport height and width */
-    font-size: 4vw; /* Font size relative to viewport width */
+    font-size: 3vw; /* Font size relative to viewport width */
     margin: 2vh 0; /* Margin based on viewport height */
     cursor: pointer;
     border: none;
